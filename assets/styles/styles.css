@@ -289,41 +289,35 @@ main > .projects {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
-    width: 70vw;
+    height: 80vh;
+    width: 75vw;
     border-radius: 50px;
 }
 
 .cards-container > .card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     color: var(--color-two);
-    background-color: white;
+    background-color: var(--background-color);
     text-align: center;
     font-family: var(--font1);
     font-style: italic;
-    height: 550px;
+    height: 450px;
     width: 350px;
     border-radius: 25px;
 }
 
-.card-h3{
-    margin-top: 60px;
-    
-}
-
 .project-img {
+    margin-top: 50px;
     width: 300px;
     height: auto;
     border-radius: 25px;
 }
 
-.project-a {
-    padding: 50px 10px;
-    background-color: black;
-    border-radius: 0 0 25% 0;
-
-}
-
 .card > p {
+    width: 300px;
     color: var(--font-color1);
     font-family: var(--font2);
     font-size: 1rem;
