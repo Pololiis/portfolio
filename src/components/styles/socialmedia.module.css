@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    height: 30px;
+    width: auto;
+    border: 1px solid #5E6472;
+    padding: 3px;
+}
